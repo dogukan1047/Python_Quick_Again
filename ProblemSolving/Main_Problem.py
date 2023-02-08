@@ -1,4 +1,4 @@
-# Ekrandan alınan sayının asal olup olmadığını kontrol eden program
+#Ekrandan alınan sayının asal olup olmadığını kontrol eden program
 
 number = int(input("Sayinizi giriniz:"))
 i = 2
@@ -10,7 +10,8 @@ while i < 10:
     if i == 10:
         print("asal sayıdır:")
 
-# ekrandan girilen sayının pozitif bölen sayısını bulan program
+#ekrandan girilen sayının pozitif bölen sayısını bulan program
+
 bolen_sayısı = 0
 for i in range(1, number + 1):
     if number % i == 0:
@@ -18,7 +19,7 @@ for i in range(1, number + 1):
 
 print(bolen_sayısı)
 
-# Ekrandan girilen sayının rakamları toplamını hesaplayan bir program yazınız
+#Ekrandan girilen sayının rakamları toplamını hesaplayan bir program yazınız
 
 
 toplam = 0
@@ -29,7 +30,7 @@ for rakam in str_sayi:
 
 print(toplam)
 
-# ekrandan alınan bir metinde hangi harfin kaç kere geçtigini bulan program
+#ekrandan alınan bir metinde hangi harfin kaç kere geçtigini bulan program
 
 
 metin = input("Metininizi giriniz:")
@@ -44,7 +45,8 @@ for harf in metin:
 for harf, adet in sozluk.items():
     print(harf, adet)
 
-# Ekrandan okunan bir metinde a harflerini büyük yapan bir program yazınız
+#Ekrandan okunan bir metinde a harflerini büyük yapan bir program yazınız
+
 metin2=""
 
 for harf in metin :

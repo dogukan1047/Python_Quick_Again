@@ -30,7 +30,7 @@ for number in prime_list:
 print(prime_list2)
 
 
-# 3 basamaklı sayıların  kaç tanesi rakamlarının küpelerinin toplamına eşittir
+## 3 basamaklı sayıların  kaç tanesi rakamlarının küpelerinin toplamına eşittir
 
 
 count=0
