@@ -1,0 +1,11 @@
+Dogukan Polatel
+9 Subat 2023
+readlines()
+read()
+seek()
+readline()
+write()
+r modu:Okuma Modu(Dosya yoksa hata verir)
+w modu :Yazma Modu(Dosya yoksa olusturur)
+r+ Modu: Hem yazma hem okuma
+a Modu:Dosya sonuna ekleme modu
