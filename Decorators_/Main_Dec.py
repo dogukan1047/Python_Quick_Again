@@ -14,7 +14,7 @@ def fonksiyon():
 
 
 
-def zaman_hesapla_decorater(fonk):
+def zaman_hesapla_decorator(fonk):
     def wrapper(*args,**kwargs):
         baslangic=time.time()
         fonk(*args,**kwargs)
@@ -28,13 +28,13 @@ def kareleri_al(liste):
         print(i**2)
 
 
-@zaman_hesapla_decorater
+@zaman_hesapla_decorator
 def kupleri_al(liste):
     for i in liste:
         print(i**3)
 
 
-@zaman_hesapla_decorater
+@zaman_hesapla_decorator
 def topla(a,b):
     time.sleep(1)
     return a+b
@@ -43,6 +43,6 @@ def topla(a,b):
 
 kupleri_al(range(15))
 
-kareleri_Al1=zaman_hesapla_decorater(kareleri_al)
+kareleri_Al1=zaman_hesapla_decorator(kareleri_al)
 kareleri_Al1(range(15))
 
