@@ -28,3 +28,5 @@ class person():
     @staticmethod
     def yas_hesapla():
         return date.today()
+
+
