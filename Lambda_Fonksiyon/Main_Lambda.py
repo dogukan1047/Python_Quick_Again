@@ -1,5 +1,5 @@
 # Lambda
-
+a=[15,20,25]
 kare_al = lambda x: x * x
 print(kare_al(5))
 
@@ -19,3 +19,6 @@ liste.sort()
 print(liste)
 liste.sort(key=lambda x :x[1])
 print(liste)
+
+
+
